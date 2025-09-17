@@ -31,9 +31,9 @@ End the program and close the output video window by pressing 'q'.
 ### Developed By: Mahalakshmi R
 ### Register No: 212223230116
 ## Program:
-``` Python
 
 ## i) Write the frame as JPG file
+``` Python
 
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
