@@ -26,12 +26,13 @@ Display the processed frame using matplotlib.pyplot.imshow(), ensuring the axis 
 Release the webcam resource with cap.release() once frame capturing or display is complete.
 
 ## Program:
-```
+
 ### Developed By: Mahalakshmi R
 ### Register No: 212223230116
+
 ```
-```
-## i) Write the frame as JPG file
+i) Write the frame as JPG file
+
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -49,7 +50,7 @@ plt.show()
 ```
 
 ```
-## ii) Display the video
+ii) Display the video
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -67,7 +68,7 @@ cap.release()
 ```
 
 ```
-## iii) Display the video by resizing the window
+iii) Display the video by resizing the window
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -86,7 +87,7 @@ cap.release()
 ```
 
 ```
-## iv) Rotate and display the video
+iv) Rotate and display the video
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
